@@ -8474,18 +8474,21 @@ h1, h2, h3, h4, h5,
   text-align: center;
   margin: 0 auto;
   display: block; }
-  .mouse-icon:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    content: '';
-    background: #edf0ff;
-    z-index: -1;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg); }
+
+.mouse-icon:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background: #edf0ff;
+  z-index: -1;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); 
+  border-radius: 50% !important;
+}
 
 .mouse-wheel {
   height: 70px;
