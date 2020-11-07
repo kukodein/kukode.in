@@ -2,6 +2,5 @@
 <img>
 </div>
 
-# kokngoding.github.io
-Homepage of Kok Ngoding website
-see : 	[Kukode.in - Jasa Bikin Website](https://kukode.in)
+# Kukode.in
+Homepage see : [Kukode.in - Jasa Bikin Website](https://kukode.in)
