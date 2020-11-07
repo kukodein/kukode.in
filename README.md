@@ -4,4 +4,4 @@
 
 # kokngoding.github.io
 Homepage of Kok Ngoding website
-see : 	[Kok Ngoding](https://kokngoding.github.io)
+see : 	[Kukode.in - Jasa Bikin Website](https://kukode.in)
