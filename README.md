@@ -1,6 +1,6 @@
 <div>
-<img>
+<img src="favicon.png" height="80px" alt="Logo Kukodein" title="Logo Kukodein">
 </div>
 
 # Kukode.in
-Homepage see : [Kukode.in - Jasa Bikin Website](https://kukode.in)
+Homepage : [Kukode.in](https://kukode.in) - [Jasa Bikin Website](https://kukode.in) & Maintenance Website Profesional
