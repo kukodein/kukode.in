@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #02ADE9;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -9675,3 +9675,47 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    /* my css */
+
+    img.paket-icon {
+      width: 190px;
+      margin-bottom: 20px;
+      margin-top: -10px;
+    }
+
+    ul.list-paket {
+      list-style-type: none;
+      text-align: left;
+    }
+
+    ul.list-paket li {
+      margin-bottom: -17px;
+    }
+
+    ul.list-paket li p {
+      font-weight: bold;
+      color: #001B21;
+    }
+
+    ul.list-paket li p::before {
+      content: url(../images/check.svg);
+      margin-right: 7px;
+    }
+
+    div.paket-label {
+      background-color: #02ADE9;
+      margin-top: 30px;
+      transition: 250ms ease;
+    }
+
+    div.paket-label:hover {
+      background-color: #4cccfa;
+      box-shadow: 5px 10px 8px #00000088;
+      margin-top: 25px;
+      cursor: pointer;
+    }
+
+    div.paket-label h1 {
+      color: white;
+    }
