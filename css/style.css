@@ -9712,10 +9712,16 @@ textarea.form-control {
       transition: 250ms ease;
     }
 
+    div.paket-flex {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: space-between !important;
+    }
+
     div.paket-label:hover {
       background-color: #4cccfa;
       box-shadow: 5px 10px 8px #00000088;
-      margin-top: 25px;
+      margin-bottom: 10px;
       cursor: pointer;
     }
 
@@ -9765,9 +9771,9 @@ img.icon-logo {
   img.about-us-picture {
     width: 90vw;
   }
-img.icon-logo {
-  height: 40px;
-}
+  img.icon-logo {
+    height: 40px;
+  }
 
 }
 
