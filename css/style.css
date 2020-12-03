@@ -8173,13 +8173,16 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: white !important;
       position: relative;
       top: 0;
       padding-top: 0;
       padding-bottom: 0;
       padding-left: 15px;
-      padding-right: 15px; } }
+      padding-right: 15px;
+      color: black;
+      }
+      }
   .ftco-navbar-light .container {
     width: 1110px;
     margin: 0 auto;
@@ -8245,7 +8248,9 @@ h1, h2, h3, h4, h5,
         padding-right: 0;
         padding-bottom: 1rem;
         padding-top: 0;
-        color: #fff; } }
+        color: black;
+        }
+        }
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
     color: #fff;
     border: 1px solid #3e64ff;
@@ -9763,7 +9768,7 @@ blockquote p {
 }
 
 img.icon-logo {
-  height: 60px
+  height: 30px
 }
 
 /* mobile */
@@ -9771,9 +9776,9 @@ img.icon-logo {
   img.about-us-picture {
     width: 90vw;
   }
-  img.icon-logo {
-    height: 40px;
-  }
+  /* img.icon-logo {
+    height: 30px;
+  } */
 
 }
 
