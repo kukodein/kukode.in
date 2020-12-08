@@ -9687,9 +9687,21 @@ textarea.form-control {
     /* my css */
 
     img.paket-icon {
-      width: 190px;
-      margin-bottom: 20px;
-      margin-top: -10px;
+      width: 60px;
+      }
+
+      div.icon-border {
+        /* border: solid black; */
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: #3F65FF;
+        top: -55px;
     }
 
     ul.list-paket {
@@ -9712,7 +9724,7 @@ textarea.form-control {
     }
 
     div.paket-label {
-      background-color: #02ADE9;
+      background-color: #3F65FF;
       margin-bottom: 0px;
       transition: 250ms ease;
     }
@@ -9721,6 +9733,8 @@ textarea.form-control {
       display: flex !important;
       flex-direction: column !important;
       justify-content: space-between !important;
+      align-items: center;
+      background-color: ghostwhite;
     }
 
     div.paket-label:hover {
@@ -9768,13 +9782,16 @@ blockquote p {
 }
 
 img.icon-logo {
-  height: 30px
+  height: 30px;
 }
 
 /* mobile */
 @media(max-width:768px) {
   img.about-us-picture {
     width: 90vw;
+  }
+  div.icon-border {
+    top: -15px
   }
   /* img.icon-logo {
     height: 30px;
