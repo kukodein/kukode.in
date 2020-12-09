@@ -13,20 +13,20 @@
 
   {{ "<!-- Open Graph / Facebook Meta Tags -->" | safeHTML }}
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://kukode.in">
+  <meta property="og:url" content="{{ .Site.BaseURL }}">
   <meta property="og:title" content="Kukode.in - Jasa Bikin Website & Maintenance Website Profesional">
   <meta property="og:description" content="Kukode.in adalah software house yang menerima jasa bikin website & maintenance website. Kami membuat web sederhana hingga kompleks serta menerima perawatan web.">
-  <meta property="og:image" content="https://kukode.in/images/favicon.png">
+  <meta property="og:image" content="{{ .Site.BaseURL }}/images/favicon.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1024">
   <meta property="og:image:height" content="1024">
 
   {{ "<!-- Twitter Meta Tags -->" | safeHTML }}
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://kukode.in">
+  <meta property="twitter:url" content="{{ .Site.BaseURL }}">
   <meta property="twitter:title" content="Kukode.in - Jasa Bikin Website & Maintenance Website Profesional">
   <meta property="twitter:description" content="Kukode.in adalah software house yang menerima jasa bikin website & maintenance website. Kami membuat web sederhana hingga kompleks serta menerima perawatan web.">
-  <meta property="twitter:image" content="https://kukode.in/images/favicon.png">
+  <meta property="twitter:image" content="{{ .Site.BaseURL }}/images/favicon.png">
 
   {{ "<!-- Color Tab -->" | safeHTML }}
   <meta name="theme-color" content="blue" />

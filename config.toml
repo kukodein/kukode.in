@@ -1,4 +1,4 @@
-baseURL = "https://kukodein.netlify.app/"
+baseURL = "https://kukode.in/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
