@@ -3,6 +3,7 @@ languageCode = "en-us"
 paginate = 6
 theme = "portio"
 title = "Kukode.in - Jasa Bikin Website & Maintenance Website Profesional"
+
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -35,27 +36,27 @@ weight = 7
 
 # Sitemap Menu
 [[menu.sitemap]]
-name = "About me"
+name = "About Us"
 url = "about"
 weight = 1
 [[menu.sitemap]]
 name = "Frequently Ask Question"
-url = "#"
+url = "faq"
 weight = 2
 [[menu.sitemap]]
 name = "Privacy & Policy"
-url = "#"
+url = "privacy-policy"
 weight = 3
 [[menu.sitemap]]
 name = "Latest Article"
-url = "#"
+url = "blog"
 weight = 4
 
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "All right reserved copyright © Portio 2020"
-footerLogo = "images/contact/widget-logo.png"
+copyright = "© Copyright 2020 • Kukode.in - Jasa Bikin Website & Maintenance Website"
+footerLogo = "images/site-navigation/logo_white.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "U-000000-1"
 logo = "images/site-navigation/logo.png"
