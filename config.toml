@@ -2,7 +2,7 @@ baseURL = "https://portioz.netlify.app/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Portio"
+title = "Kukode.in - Jasa Bikin Website & Maintenance Website Profesional"
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -61,10 +61,10 @@ googleAnalytics = "U-000000-1"
 logo = "images/site-navigation/logo.png"
 
 [params.address]
-address = "23 Khan Niketon, Grand Street, NYK."
-email = "hello@example.com"
+address = "Perumahan Kepuh Permai, Jl. Kepuh Permai No.D35, RT.05/RW.23, Gondang Legi, Wedomartani, Ngemplak, Sleman Regency, Special Region of Yogyakarta 55548."
+email = "kukodein@gmail.com"
 openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
-phone = "+(448) 833 5272 332"
+phone = "+62 877-2626-5660"
 
 [params.map]
 APIkey = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
@@ -75,17 +75,21 @@ pinImage = "images/pin.png"
 # Social icons
 [[params.social]]
 icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+url = "https://www.facebook.com/kukodein"
 weight = 1
 [[params.social]]
-icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
+icon = "fa-instagram"
+url = "https://www.instagram.com/kukode.in"
 weight = 2
 [[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/"
+icon = "fa-telegram"
+url = "https://t.me/kukodein"
 weight = 3
 [[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
+icon = "fa-whatsapp"
+url = "https://api.whatsapp.com/send?phone=6287726265660"
 weight = 4
+[[params.social]]
+icon = "fa-github"
+url = "https://github.com/kukodein"
+weight = 5
