@@ -51,6 +51,7 @@ _This is italic text_
 
 ~~Strikethrough~~
 
+--Underlined text--
 
 ## Blockquotes
 
@@ -143,6 +144,8 @@ Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
 
 ## Images
+
+![Minion](https://octodex.github.com/images/minion.png)
 
 (note: redacted this section cause images were too big)
 
