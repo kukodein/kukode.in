@@ -55,7 +55,7 @@ weight = 4
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "© Copyright 2020 • [Kukode.in](https://kukode.in) - Jasa Bikin Website & Maintenance Website"
+copyright = "© Copyright 2020 • Kukode.in - Jasa Bikin Website & Maintenance Website"
 footerLogo = "images/site-navigation/logo_white.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "G-81NBPGLTL5"
