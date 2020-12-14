@@ -30,6 +30,7 @@ fields:
   name: solution
   label: solution
 pages:
+- content/blog/fgfg.md
 - content/portfolio/UX-case-study-for-agriculture-app.md
 - content/portfolio/case-study-one.md
 - content/portfolio/event-app-case-study.md
