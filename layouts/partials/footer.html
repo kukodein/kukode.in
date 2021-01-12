@@ -23,11 +23,11 @@
 						</svg>
 					</div>
 					<div class="text-light footer__cta_content">
-						<span>Contact me</span>
+						<span>Kontak Kami</span>
 						<h2 class="mb-0">Let’s Start a Project</h2>
 					</div>
 					<div class="footer__cta_action">
-						<a class="btn btn-light btn-zoom" href="{{ .Site.Params.contactLink | absURL }}">Get in touch</a>
+						<a class="btn btn-light btn-zoom" href="{{ .Site.Params.contactLink | absURL }}">Klik disini</a>
 					</div>
 				</div>
 			</div>
@@ -106,3 +106,11 @@
 <script src="{{ $formhandler.Permalink }}"></script>
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>
+<script type="text/javascript">
+	$('.btn').click(function() {
+    var sectionTo = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(sectionTo).offset().top
+    }, 1500);
+});
+</script>

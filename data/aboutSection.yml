@@ -1,16 +1,16 @@
 ---
 enable: true
-topTitle: Tentang kami
+topTitle: Tentang Kami
 title: >
-  ## Tentang kami
+  ## Ketahui Lebih Lanjut Tentang Kami
 
 content: >
-  ### Kami mendesign dan membuat hal yang luarbiasa.
+  ### Kami membantu usaha anda agar berjalan lebih baik.
 
-  Kukode.in adalah software house yang menerima jasa bikin website & maintenance website. Kami membuat web sederhana hingga kompleks serta menerima perawatan web.
-  
-button1Name: Pesan
-# button2Name: Download CV
-button1Target: contact
-# button2Target: contact
+  Kukode.in adalah software house yang menerima jasa bikin website & maintenance website. Kami melakukan pembuatan website sederhana hingga web kompleks untuk kebutuhan usaha anda. Kami juga menerima perawatan web bagi anda yang sudah memiliki website namun terbengkalai.
+
+button1Name: Lebih lanjut
+button2Name: Hubungi kami
+button1Target: about
+button2Target: contact
 image: images/about/undraw_voice_interface_eckp.svg

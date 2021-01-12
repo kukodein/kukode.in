@@ -40,37 +40,41 @@ name = "About Us"
 url = "about"
 weight = 1
 [[menu.sitemap]]
+name = "Contact Us"
+url = "contact"
+weight = 2
+[[menu.sitemap]]
+name = "Blog"
+url = "blog"
+weight = 3
+[[menu.sitemap]]
 name = "Frequently Ask Question"
 url = "faq"
-weight = 2
+weight = 4
 [[menu.sitemap]]
 name = "Privacy & Policy"
 url = "privacy-policy"
-weight = 3
-[[menu.sitemap]]
-name = "Latest Article"
-url = "blog"
-weight = 4
+weight = 5
 
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "© Copyright 2020 • Kukode.in - Jasa Bikin Website & Maintenance Website"
+copyright = "© Copyright 2021 • Kukode.in - Jasa Bikin Website & Maintenance Website"
 footerLogo = "images/site-navigation/logo_white.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "G-81NBPGLTL5"
 logo = "images/site-navigation/logo.png"
 
 [params.address]
-address = "Perumahan Kepuh Permai, Jl. Kepuh Permai No.D35, RT.05/RW.23, Gondang Legi, Wedomartani, Ngemplak, Sleman Regency, Special Region of Yogyakarta 55548."
+address = "Jl. Kepuh Permai No.D35, RT.05/RW.23, Gondang Legi, Wedomartani, Ngemplak, Sleman, Yogyakarta 55584."
 email = "kukodein@gmail.com"
-openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
+openingHours = "Open from 09.00 AM to 04.00 PM"
 phone = "+62 877-2626-5660"
 
 [params.map]
 APIkey = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
-latitude = "23.7783741"
-longitude = "90.3746808"
+latitude = "-7.7341006"
+longitude = "110.4386247"
 pinImage = "images/pin.png"
 
 # Social icons

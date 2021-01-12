@@ -47,6 +47,7 @@
   {{ "<!-- Stylesheets -->" | safeHTML }}
   {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
   <link href="{{ $style.Permalink }}" rel="stylesheet" />
+  <style type="text/css">#about{scroll-behavior:smooth;}</style>
   {{ with site.Params.googleAnalytics }}
   {{ "<!-- Google Analytics -->" | safeHTML }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>

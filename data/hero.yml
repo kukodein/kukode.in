@@ -5,8 +5,8 @@ content: >
   # Kami hadir untuk membantu usaha anda
 
   
-buttonName: Hubungi Kami
-buttonURL: contact
+buttonName: Tentang Kami
+buttonURL: "#about"
 image: images/hero/undraw_team_spirit_hrr4.svg
 # videoThumb: images/hero/popup-thumb.png
 # videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ

@@ -1,43 +1,41 @@
 ---
 enable: true
-topTitle: Area Kerja
+topTitle: Kemampuan Kami
 title: >
-  ## Layanan Kami
+  ## Hal yang kami kerjakan
 
 service:
   - content: >
-      #### UI/UX Design 
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
-  - content: >
       #### Web Development 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
+      Membangun website sesuai dengan kebutuhan anda, baik website untuk usaha anda atau website untuk melakukan promosi diri anda.
+    image: images/service/web-development.svg
+  - content: >
+      #### Content Writer 
+
+      Konten sebuah website merupakan hal yang penting, karena akan meningkatkan minat dari user maupun untuk meningkatkan SEO website.
+    image: images/service/content-writer.svg
+  - content: >
+      #### UI/UX Designer
+
+      Perancangan UI/UX untuk meningkatkan tampilan desain yang sesuai dengan user agar bisa digunakan dengan lebih mudah.
+    image: images/service/ui-ux.svg
   - content: >
       #### Creative Design 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/creative.svg
+      Membuat desain keren sesuai perkembangan trend yang ada untuk diterapkan pada website atau pada sosial media yang anda miliki
+    image: images/service/creative-design.svg
   - content: >
       #### Branding
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Kenalkan diri anda kepada khalayak umum yang nantinya bisa anda gunakan untuk membantu orang dan mendapatkan penghasilan.
     image: images/service/branding.svg
   - content: >
-      #### UI/UX Design
+      #### Web Consulting
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
-  - content: >
-      #### Web Development
+      Kontsultasikan keluhan anda tentang website yang anda miliki atau website yang akan anda buat. Kami akan berupaya untu memberikan saran.
+    image: images/service/consulting.svg
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
+
+
+
