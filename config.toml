@@ -4,6 +4,8 @@ paginate = 6
 theme = "portio"
 title = "Kukode.in - Jasa Bikin Website & Maintenance Web Profesional"
 
+disqusShortname = "ahmadmzakki"
+
 # Main Menu
 [[menu.main]]
 name = "Home"
