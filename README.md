@@ -1,5 +1,6 @@
-# kukode.in
-Kukode.in - [Jasa Bikin Website](https://kukode.in "Jasa Pembuatan Website") dan Maintenance SEO Website Profesional
+<img src="static/images/site-navigation/logo.png" height="40px">
+
+# Kukode.in - [Jasa Bikin Website](https://kukode.in "Jasa Pembuatan Website") dan Maintenance SEO Website Profesional
 
 ---
 
