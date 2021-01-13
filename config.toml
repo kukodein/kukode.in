@@ -2,7 +2,7 @@ baseURL = "https://kukode.in/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Kukode.in - Jasa Bikin Website & Maintenance Website Profesional"
+title = "Kukode.in - Jasa Bikin Website & Maintenance Web Profesional"
 
 # Main Menu
 [[menu.main]]
