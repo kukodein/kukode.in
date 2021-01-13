@@ -46,7 +46,7 @@ name = "Contact Us"
 url = "contact"
 weight = 2
 [[menu.sitemap]]
-name = "Blog"
+name = "Our Blog"
 url = "blog"
 weight = 3
 [[menu.sitemap]]
