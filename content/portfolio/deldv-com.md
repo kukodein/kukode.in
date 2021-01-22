@@ -1,9 +1,9 @@
 ---
-title: Case Study One
-date: 2020-07-13T12:49:27.000+06:00
-thumbnail: images/portfolio/portfolio-1.png
-service: Development, UX Design
-client: Edward Furlong
+title: DelDV - Simple & Elegant
+date: 2020-08-12T18:19:35.000+06:00
+thumbnail: images/portfolio/work-deldv.com.png
+service: UX Design, UX Research
+client: Clayton Coco
 shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
   nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
   voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd

@@ -23,6 +23,9 @@ sections:
   path: data/testimonialSection.yml
   label: Testimonials
 - type: document
+  path: data/pricingSection.yml
+  label: Pricing Section
+- type: document
   path: data/blogSection.yml
   label: Blog Section
 - type: directory

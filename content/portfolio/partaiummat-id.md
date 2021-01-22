@@ -1,7 +1,7 @@
 ---
-title: Event App Case Study
+title: Partai Ummat
 date: 2020-08-12T18:07:16.000+06:00
-thumbnail: images/portfolio/portfolio-2.png
+thumbnail: images/portfolio/work-partaiummat.id.png
 service: Web Design, Branding
 client: Johnathon Doe
 shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

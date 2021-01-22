@@ -1,4 +1,4 @@
 ---
 title: Linkz
-breadcrumb: Linkz
+breadcrumb: linkz
 ---

@@ -13,9 +13,11 @@
     <div class="row">
       <div class="col-12">
         <div class="portfolio-item-grid">
-          {{ range (where $.Site.RegularPages "Type" "portfolio").Reverse }}
+          {{ range (where $.Site.RegularPages "Type" "portfolio") }}
           <div class="portfolio-item">
-            <img src="{{ .Params.thumbnail }}" class="portfolio-item-thumb" alt="portfolio-thumb" />
+            <a href="{{ .Permalink }}">
+              <img src="{{ .Params.thumbnail }}" class="portfolio-item-thumb" alt="portfolio-thumb" />
+            </a>
             <div class="portfolio-item-content">
               <span>{{ .Params.service }}</span>
               <h3 class="mb-0">

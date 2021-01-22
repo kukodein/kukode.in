@@ -82,7 +82,7 @@ pinImage = "images/pin.png"
 # Social icons
 [[params.social]]
 icon = "fa-facebook-official"
-url = "https://www.facebook.com/kukodein"
+url = "https://fb.me/kukodein"
 weight = 1
 [[params.social]]
 icon = "fa-instagram"
@@ -100,3 +100,11 @@ weight = 4
 icon = "fa-github"
 url = "https://github.com/kukodein"
 weight = 5
+[[params.social]]
+icon = "fa fa-youtube-play"
+url = "https://www.youtube.com/channel/UC-sqh84XZ6TO26T_S_B2S0g"
+weight = 6
+
+uglyurls = true
+[permalinks]
+  post = ":filename"

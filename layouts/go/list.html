@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="robots" content="noindex">
+	<meta name="googlebot" content="noindex">
+
+	<title>Redirect Web Kukode.in</title>
+
+	<link rel="icon" type="image/png" href="{{ "images/favicon.png" | absURL }}">
+	<link rel="stylesheet" href="{{"plugins/bootstrap/bootstrap.min.css" | absURL }}" />
+	
+	<script src="{{ "json/data.json" | absURL }}"></script>
+
+	<style type="text/css">
+		html,body{height:100%;}
+		body{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding-top:40px;padding-bottom:40px;}
+		.form-signin{width:100%;max-width:330px;padding:15px;margin:auto;}
+	</style>
+</head>
+<body class="text-center">
+
+<div class="form-signin">
+	<a id="link" href="?to=instagram">
+		<img src="{{ "images/favicon-bnw.png" | absURL }}" alt="" width="72" height="72">
+	</a>
+	<p id="message" class="my-3 font-weight-light"></p>
+</div>
+
+<script src="{{ "plugins/jQuery/jquery.min.js" | absURL }}"></script>
+<script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
+
+<script type="text/javascript">
+//-----------------------------
+function redirectSearch(search){
+	if(search !== ''){
+		let params = new URLSearchParams(search);
+		redirectTo(params.get("to"), "Halaman tidak ditemukan"); 
+	} else {
+		// document.getElementById("message").innerHTML='Tidak ada redirect';
+	}	
+}
+
+function redirectTo(target, defaultVal) {
+	try {
+		var item = dataRedirect.find(item => item.id === target);
+		window.location = item.link;
+		document.title = "Please wait!";
+	} catch (e) {
+		document.title = defaultVal;
+		document.getElementById("message").innerHTML = defaultVal + '<br><a href="{{ .Site.BaseURL }}">Go to Homepage</a>';
+	}
+}
+
+redirectSearch(window.location.search);
+</script>
+
+</body>
+</html>
