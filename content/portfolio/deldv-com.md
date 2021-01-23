@@ -1,7 +1,7 @@
 ---
-title: DelDV - Simple & Elegant
+title: DelDV.com - Simple & Elegant
 date: 2020-08-12T18:19:35.000+06:00
-thumbnail: images/portfolio/work-deldv.com.png
+thumbnail: images/portfolio/work-deldv.com.jpg
 service: UX Design, UX Research
 client: Clayton Coco
 shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

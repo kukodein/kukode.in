@@ -1,7 +1,7 @@
 ---
 title: BinarBatik.com - Rajanya Batik Nusantara
 date: 2020-12-13T12:49:27.000+06:00
-thumbnail: images/portfolio/work-binarbatik.com.png
+thumbnail: images/portfolio/work-binarbatik.com.jpg
 service: Web Development
 client: Kang Suep
 shortDescription: Pembuatan website untuk toko pakaian yang menyediakan produk batik berlokasi di Jogja dan Magelang. Yang kemudian pada website tersebut digunakan untuk memberikan informasi terkait produk tahu skripsi dan berita terbaru. Selain itu, pada website tersebut pengunjung juga memugkinkan untuk melakukan pemesanan secara online.

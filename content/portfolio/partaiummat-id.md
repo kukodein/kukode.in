@@ -1,7 +1,7 @@
 ---
-title: Partai Ummat
+title: PartaiUmmat.id
 date: 2020-08-12T18:07:16.000+06:00
-thumbnail: images/portfolio/work-partaiummat.id.png
+thumbnail: images/portfolio/work-partaiummat.id.jpg
 service: Web Design, Branding
 client: Johnathon Doe
 shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

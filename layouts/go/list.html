@@ -1,34 +1,50 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Halaman khusus untuk redirect link dari Kukode.in">
+	<meta name="author" content="Ahmad Muzakki">
+	<meta name="generator" content="Hugo">
 	<meta name="robots" content="noindex">
 	<meta name="googlebot" content="noindex">
 
 	<title>Redirect Web Kukode.in</title>
 
 	<link rel="icon" type="image/png" href="{{ "images/favicon.png" | absURL }}">
-	<link rel="stylesheet" href="{{"plugins/bootstrap/bootstrap.min.css" | absURL }}" />
-	
-	<script src="{{ "json/data.json" | absURL }}"></script>
+	<link rel="canonical" href="{{ .Site.BaseURL }}">
 
-	<style type="text/css">
-		html,body{height:100%;}
-		body{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding-top:40px;padding-bottom:40px;}
-		.form-signin{width:100%;max-width:330px;padding:15px;margin:auto;}
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="{{"plugins/bootstrap/bootstrap.min.css" | absURL }}" />
+	<style>
+		.bd-placeholder-img {font-size: 1.125rem;text-anchor: middle;
+			-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {font-size: 3.5rem;}}
+		html, body {height: 100%;}
+		body {display: -ms-flexbox;display: flex;-ms-flex-align: center;align-items: center;
+			padding-top: 40px;padding-bottom: 40px;}
+		.form-signin {width: 100%;max-width: 330px;padding: 15px;margin: auto;}
+		.form-signin .checkbox {font-weight: 400;}
+		.form-signin .form-control {position: relative;box-sizing: border-box;height: auto;padding: 10px;font-size: 16px;}
+		.form-signin .form-control:focus {z-index: 2;}
+		.form-signin input[type="email"] {margin-bottom: -1px;border-bottom-right-radius: 0;border-bottom-left-radius: 0;}
+		.form-signin input[type="password"] {margin-bottom: 10px;border-top-left-radius: 0;border-top-right-radius: 0;}
 	</style>
+
+	<script src="{{ "json/data.json" | absURL }}"></script>
 </head>
 <body class="text-center">
-
-<div class="form-signin">
+	
+<form class="form-signin">
 	<a id="link" href="?to=instagram">
 		<img src="{{ "images/favicon-bnw.png" | absURL }}" alt="" width="72" height="72">
 	</a>
 	<p id="message" class="my-3 font-weight-light"></p>
-</div>
+</form>
 
 <script src="{{ "plugins/jQuery/jquery.min.js" | absURL }}"></script>
 <script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
-
 <script type="text/javascript">
 //-----------------------------
 function redirectSearch(search){
@@ -39,7 +55,6 @@ function redirectSearch(search){
 		// document.getElementById("message").innerHTML='Tidak ada redirect';
 	}	
 }
-
 function redirectTo(target, defaultVal) {
 	try {
 		var item = dataRedirect.find(item => item.id === target);
@@ -50,7 +65,6 @@ function redirectTo(target, defaultVal) {
 		document.getElementById("message").innerHTML = defaultVal + '<br><a href="{{ .Site.BaseURL }}">Go to Homepage</a>';
 	}
 }
-
 redirectSearch(window.location.search);
 </script>
 

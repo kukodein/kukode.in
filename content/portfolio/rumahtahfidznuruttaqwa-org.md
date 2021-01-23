@@ -1,9 +1,9 @@
 ---
-title: RumahAzaki.org - Yayasan Difabel
-date: 2020-08-12T12:13:40+00:00
-thumbnail: images/portfolio/work-rumahazaki.org.jpg
-service: UX Design
-client: Jane Doe
+title: RumahTahfidzNuruttaqwa.org
+date: 2020-08-12T18:19:35.000+06:00
+thumbnail: images/portfolio/work-rumahtahfidznuruttaqwa.org.jpg
+service: UX Design, UX Research
+client: Clayton Coco
 shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
   nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
   voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
