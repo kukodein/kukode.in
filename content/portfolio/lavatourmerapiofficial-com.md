@@ -1,5 +1,5 @@
 ---
-title: LavaTourMerapiOfficial.com
+title: Lava Tour Merapi Official
 date: 2020-08-12T18:19:35.000+06:00
 thumbnail: images/portfolio/work-lavatourmerapiofficial.com.jpg
 service: UX Design, UX Research
