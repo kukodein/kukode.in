@@ -1,15 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
 <head>
 	<meta charset="utf-8" />
 
 	{{ "<!-- mobile responsive meta -->" | safeHTML }}
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="author" content="Ahmad Muzakki">
+	<meta name="copyright"content="Kukode.in">
+	<meta name="language" content="id">
 
 	{{ "<!-- Primary Meta Tags -->" | safeHTML }}
 	<title>{{ .Title }}</title>
+
 	<meta name="title" content="{{ .Title }}">
-	<meta name="description" content="Kukode.in adalah software house yang menerima jasa bikin website & maintenance website. Kami membuat web sederhana hingga kompleks serta menerima perawatan web.">
-	<meta name="keywords" content="Jasa, Bikin, Website, Maintenance, Jasa Bikin Webisite, Jasa Buat Website, Buat Website, Jasa Maintenance Website, Jasa Perawatan Website, Jasa Develope Website, Jasa SEO Website, Jasa SEO">
+	<meta name="description" content="Kukode.in adalah software house yang menerima jasa pembuatan website & maintenance SEO Jogja. Kami membuat web sederhana hingga kompleks serta menerima perawatan web.">
+	<meta name="keywords" content="Jasa Pembuatan Website, Maintenance, Jasa Bikin Webisite, Jasa Buat Website, Buat Website, Jasa Maintenance Website, Jasa Perawatan Website, Jasa Develope Website, Jasa SEO Website, Jasa SEO, Jasa SEO Jogja">
 
 	{{ "<!-- Open Graph / Facebook Meta Tags -->" | safeHTML }}
 	<meta property="og:type" content="website">
@@ -30,6 +36,9 @@
 
 	{{ "<!-- Color Tab -->" | safeHTML }}
 	<meta name="theme-color" content="blue" />
+	
+	<meta name="og:email" content="kukodein@gmail.com"/>
+	<meta name="og:phone_number" content="6285329335354"/>
 
 	{{ "<!--Favicon-->" | safeHTML }}
 	<link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
@@ -66,5 +75,26 @@
   	var link_json = '{{ "json/data-wa.json" | absURL }}';
   	var folder_img = '{{ "images/icon/" | absURL }}';
 	</script>
-  <script	src="{{ "js/cdn.script.min.js" | absURL }}"></script>
+
+	<script	src="{{ "js/cdn.script.min.js" | absURL }}"></script>
+
+	<!-- <script> -->
+	<script type="application/ld+json">
+		{ "@context" : "https://schema.org",
+			"@type" : "Organization",
+			"url" : "http://www.your-company-site.com",
+			"contactPoint" : [{ 
+				"@type" : "ContactPoint",
+				"telephone" : "6285329335354",
+				"contactType" : "customer service"
+			}],
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.8",
+				"reviewCount": "7462",
+				"bestRating": "5",
+				"worstRating": "1"
+			},
+		}
+	</script>
 </head>
