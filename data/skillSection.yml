@@ -6,12 +6,20 @@ content: >
 
   Tujuan kami adalah untuk menjadi software house yang terpercaya dan paling bermanfaat dalam bidang IT di Indonesia.
 
+  Berikut persentase keahlian kami sebagai penguat keputusan Anda.
+
 image: images/skill/undraw_feeling_proud_qne1.svg
 
 skill:
   - title: HTML
-    percent: 69
+    percent: 80
   - title: CSS
-    percent: 60
+    percent: 88
   - title: Javascript
-    percent: 85
+    percent: 76
+  - title: PHP
+    percent: 82
+  - title: CodeIgniter
+    percent: 75
+  - title: Laravel
+    percent: 70

@@ -4,15 +4,32 @@ topTitle: Resume
 title: >
   ## Pencapaian Kami
 
-  Selain melakukan pembuatan website, kami juga aktif dalam hal-hal yang bisa meningkatkan kemampuan dan relasi kami.  
+  Selain menjalankan jasa pembuatan website, kami juga aktif dalam hal-hal yang bisa meningkatkan kemampuan dan relasi kami.  
 
 
-  Beberapa pencapaian yang kami peroleh dari hasil pendidikan, pelatihan maupun dari acara-acara yang pernah kami ikuti.
+  Beberapa pengalaman dan pencapaian yang kami peroleh dari hasil pendidikan, pelatihan maupun dari acara-acara yang pernah kami ikuti.
 
-tab1Name: Events
-tab2Name: Experiences
-tab1Target: event
-tab2Target: experience
+tab1Name: Experiences
+tab2Name: Events
+tab1Target: experience
+tab2Target: event
+
+experience:
+  - content: >
+      #### LKP Unikom Yogyakarta 
+
+      Magang sebagai peserta didik dan pengajar tentang pembuatan website dengan CodeIgniter selama 3 bulan.
+    time: 2018-2018
+  - content: >
+      #### SEO Anak Sholeh 
+
+      Jasa pembuatan website untuk membantu usaha menengah ke bawah meningkatkan penghasilan. Serta meningkatkan SEO Web untuk meningkatkan peringkat dalam mesin pencarian
+    time: 2019-2020
+  - content: >
+      #### Budi Mulia 
+
+      menerjakan pembuatan website perusahaan dengan wordpress + CodeIgniter untuk pendaftaran peserta dan penjualan buku secara online.
+    time: 2020-2021
 
 event:
   - content: >
@@ -36,24 +53,3 @@ event:
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2008-2010
 
-experience:
-  - content: >
-      #### Umbrella co. 
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016-Present
-  - content: >
-      #### Aperture Science 
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2010-2016
-  - content: >
-      #### ACME Inc. 
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2005-2010
-  - content: >
-      #### LexCorp 
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2001-2005

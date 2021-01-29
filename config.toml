@@ -2,7 +2,7 @@ baseURL = "https://kukode.in/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Kukode.in - Jasa Bikin Website & Maintenance Web Profesional"
+title = "Kukode.in - Jasa Pembuatan Website & Maintenance SEO Jogja"
 
 disqusShortname = "ahmadmzakki"
 
@@ -61,7 +61,7 @@ weight = 5
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "© Copyright 2021 • Kukode.in - Jasa Bikin Website & Maintenance Website"
+copyright = "© Copyright 2021 • Kukode.in - Jasa Pembuatan Website & SEO Jogja"
 footerLogo = "images/site-navigation/logo_white.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "G-81NBPGLTL5"
