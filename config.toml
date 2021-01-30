@@ -58,6 +58,11 @@ name = "Privacy & Policy"
 url = "privacy-policy"
 weight = 5
 
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
