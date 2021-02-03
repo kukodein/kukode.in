@@ -1,0 +1,7 @@
+dataRedirect = [
+	{"id":"instagram", "link":"https://www.instagram.com/kukode.in"},
+	{"id":"telegram", "link":"https://t.me/kukodein"},
+	{"id":"facebook", "link":"https://fb.me/kukodein"},
+	{"id":"youtube", "link":"https://youtube.com"},
+	{"id":"github", "link":"https://github.com/kukodein"},
+];

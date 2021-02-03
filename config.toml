@@ -4,6 +4,7 @@ paginate = 6
 theme = "portio"
 title = "Kukode.in - Jasa Pembuatan Website & Maintenance SEO Jogja"
 
+publishDir = "docs"
 disqusShortname = "ahmadmzakki"
 
 # Main Menu
@@ -28,12 +29,12 @@ name = "Resume"
 url = "#resume"
 weight = 5
 [[menu.main]]
-name = "Blog"
-url = "#blog"
+name = "Pricing"
+url = "#pricing"
 weight = 6
 [[menu.main]]
-name = "Contact"
-url = "#contact"
+name = "Blog"
+url = "#blog"
 weight = 7
 
 # Sitemap Menu
