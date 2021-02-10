@@ -30,8 +30,8 @@ fields:
   name: tab2Target
   label: tab2Target
 - type: field_group_list
-  name: education
-  label: education
+  name: experience
+  label: experience
   fields:
   - type: text
     name: title
@@ -43,8 +43,8 @@ fields:
     name: time
     label: time
 - type: field_group_list
-  name: experience
-  label: experience
+  name: event
+  label: event
   fields:
   - type: text
     name: title
