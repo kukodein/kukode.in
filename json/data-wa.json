@@ -1,0 +1,34 @@
+{
+	"widget": {
+		"url": "kukode.in",
+		"title": "Butuh bantuan? Chat kami!",
+		"desc": "Kami di sini untuk membantu Anda! Jangan ragu untuk bertanya kepada kami apa pun. Klik di bawah untuk memulai obrolan.",
+		"newtab": "1",
+		"style": "1",
+		"styletitle": "",
+		"position": "right",
+		"icon": "1",
+		"responsive": "1",
+		"zindex": "999",
+		"mode": "2",
+		"show": "1",
+		"autolabel": "1",
+		"auto": "",
+		"autoscroll": "",
+		"automobile": "",
+		"color": "#81d742",
+        		"xgen": [{
+        		"agent": [{
+    				"name": "Ahmad Muzakki",
+    				"number": "6285329335354",
+    				"photo": "https://i.ibb.co/TPWn4vY/profile-pic-4.png",
+    				"desc": "Siap membantu Anda tentang Kukode.in :)",
+    				"role": "Front Office Support",
+    				"message": "Assalamualaikum, saya ingin konsultasi di kukode.in",
+					"link_url": "",
+    				"link_image": "",
+    				"link_text": ""
+						}]
+			}]
+	}
+}
