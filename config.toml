@@ -39,10 +39,6 @@ weight = 7
 
 # Sitemap Menu
 [[menu.sitemap]]
-name = "About Us"
-url = "about"
-weight = 1
-[[menu.sitemap]]
 name = "Contact Us"
 url = "contact"
 weight = 2
@@ -74,15 +70,18 @@ googleAnalytics = "G-81NBPGLTL5"
 logo = "images/site-navigation/logo.png"
 
 [params.address]
-address = "Jl. Kepuh Permai No.D35, RT.05/RW.23, Gondang Legi, Wedomartani, Ngemplak, Sleman, Yogyakarta 55584."
+address = "Jl. Wongso Premujo, Jongke Tengah, Sendangadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55285"
 email = "kukodein@gmail.com"
 openingHours = "Open from 09.00 AM to 04.00 PM"
-phone = "+62 877-2626-5660"
+phone = "+6285329335354"
+instagram = "https://www.instagram.com/kukode.in"
+facebook = "https://www.facebook.com/kukodein"
+telegram = "https://t.me/kukodein"
 
 [params.map]
 APIkey = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
-latitude = "-7.7341006"
-longitude = "110.4386247"
+latitude = "-7.739767"
+longitude = "110.3614904"
 pinImage = "images/pin.png"
 
 # Social icons

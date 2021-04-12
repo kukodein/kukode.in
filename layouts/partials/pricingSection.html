@@ -1,12 +1,12 @@
-{{ with .Site.Data.blogSection }}
+{{ with .Site.Data.pricingSection }}
 {{ if .enable }}
-<section class="section blog-preview" id="pricing" style="margin-bottom:100px;">
+<section class="section blog-preview" id="pricing" style="margin-bottom:300px;">
 	<div class="blog-preview__shape">
 		<img src="images/blog/blog-shape.svg" alt="blog shape" />
 	</div>
 	<div class="container">
 		<div class="row mb-5">
-			<div class="col-lg-6">
+			<div class="col-lg-12">
 				<div class="blog-preview__header">
 					<span class="top-title pre-line">{{ .topTitle }}</span>
 					{{ .title | markdownify }}
@@ -17,58 +17,61 @@
 		<div class="row">
 			<div class="col-lg-4">
 				<div class="blog-preview__item">
-					<div class="blog-preview__item-thumb">
-						<img src="images/allpost/allPost-6.jpg" alt="post-image">
+					<div class="blog-preview__item-thumb shadow-lg">
+						<img src="images/pricing/Simple-Page.jpg" alt="post-image">
 					</div>
 					<div class="blog-preview__item-content bg-white" style="top:200px;bottom:unset!important;">
-						<h5 class="mb-0">Benjamin Franklins thoughts.</h5>
+						<h5 class="mb-0">Simple Company Profile</h5>
 						<p>
 							<ul>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
+								<li>Domain</li>
+								<li>Landing Page</li>
+								<li>SEO Friendly</li>
 							</ul>
 						</p>
+						<h5 class="text-primary text-center my-2 py-2 border rounded">Rp. 600K</h5>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-4">
 				<div class="blog-preview__item">
-					<div class="blog-preview__item-thumb">
-						<img src="images/allpost/allPost-6.jpg" alt="post-image">
+					<div class="blog-preview__item-thumb shadow-lg">
+						<img src="images/pricing/Business-Page.jpg" alt="post-image">
 					</div>
 					<div class="blog-preview__item-content bg-white" style="top:200px;bottom:unset!important;">
-						<h5 class="mb-0">Benjamin Franklins thoughts.</h5>
+						<h5 class="mb-0">Business Company Profile</h5>
 						<p>
 							<ul>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
+								<li>Domain</li>
+								<li>Hosting</li>
+								<li>Landing Page</li>
+								<li>Blog</li>
+								<li>SEO Friendly</li>
 							</ul>
 						</p>
+						<h5 class="text-primary text-center my-2 py-2 border rounded">Rp. 1,000K</h5>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-4">
 				<div class="blog-preview__item">
-					<div class="blog-preview__item-thumb">
-						<img src="images/allpost/allPost-6.jpg" alt="post-image">
+					<div class="blog-preview__item-thumb shadow-lg">
+						<img src="images/pricing/Online-Page.jpg" alt="post-image">
 					</div>
 					<div class="blog-preview__item-content bg-white" style="top:200px;bottom:unset!important;">
-						<h5 class="mb-0">Benjamin Franklins thoughts.</h5>
+						<h5 class="mb-0">Online Shop / Rent</h5>
 						<p>
 							<ul>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
-								<li>Some Addon</li>
+								<li>Domain</li>
+								<li>Hosting</li>
+								<li>Landing Page</li>
+								<li>Blog</li>
+								<li>Product List</li>
+								<li>Transaction</li>
+								<li>SEO Friendly</li>
 							</ul>
 						</p>
+						<h5 class="text-primary text-center my-2 py-2 border rounded">Rp. 3,000K</h5>
 					</div>
 				</div>
 			</div>

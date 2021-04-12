@@ -56,7 +56,7 @@
           </div>
           <h4>Office Address</h4>
           <p>
-            {{ $address.address }}
+            <a href="https://g.page/kukode-in?share" target="_blank">{{ $address.address }}
           </p>
         </div>
       </div>
@@ -75,8 +75,12 @@
             </div>
           </div>
           <h4>Phone & Email</h4>
-          <p>{{ $address.phone }}<br>
-            <a href="mailto:{{ $address.email }}">{{ $address.email }}</a>
+          <p>
+            <b>Phone</b> : <a target="_blank" href="tel:{{ $address.phone }}">{{ $address.phone }}</a><br>
+            <b>Email</b> : <a target="_blank" href="mailto:{{ $address.email }}">{{ $address.email }}</a><br>
+            <b>FB</b> : <a target="_blank" href="{{ $address.facebook }}">Kukode Indonesia</a><br>
+            <b>IG</b> : <a target="_blank" href="{{ $address.instagram }}">@kukode.in</a><br>
+            <b>Telegram</b> : <a target="_blank" href="{{ $address.telegram }}">Kukode.in</a><br>
           </p>
 
         </div>
@@ -180,7 +184,9 @@
       </div>
       <div class="col-lg-6">
         {{ $map := .Site.Params.map }}
-        <div id="map" data-lat={{ $map.latitude }} data-long={{ $map.longitude }} data-pin={{ $map.pinImage | absURL }}>
+        <div id="map" class="d-none" data-lat={{ $map.latitude }} data-long={{ $map.longitude }} data-pin={{ $map.pinImage | absURL }}></div>
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.470939436228!2d110.36149041487651!3d-7.739766994421399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5b59d3b06b51%3A0x55a04a4af241be81!2sKukode.in%20-%20Jasa%20Pembuatan%20Website%20%26%20Maintenance%20SEO%20Web!5e0!3m2!1sen!2sid!4v1618203441707!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-lg"></iframe>
         </div>
       </div>
     </div>

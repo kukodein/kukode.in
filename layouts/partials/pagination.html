@@ -1,7 +1,7 @@
 {{ $pag := $.Paginator }}
 {{ if gt $pag.TotalPages 1 }}
 <nav aria-label="Page navigation" class="w-100">
-  <ul class="pagination justify-content-center pagination-lg">
+  <ul class="pagination justify-content-center pagination">
     {{ range $pag.Pagers }}
     {{ if eq . $pag }}
     <li class="page-item active">

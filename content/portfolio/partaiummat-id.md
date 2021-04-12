@@ -1,6 +1,6 @@
 ---
 title: PartaiUmmat.id
-date: 2020-08-12T18:07:16.000+06:00
+date: 2021-02-12T18:07:16.000+06:00
 thumbnail: images/portfolio/work-partaiummat.id.jpg
 service: Web Design, Branding
 client: Johnathon Doe
