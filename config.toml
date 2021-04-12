@@ -47,8 +47,8 @@ name = "Our Blog"
 url = "blog"
 weight = 3
 [[menu.sitemap]]
-name = "Frequently Ask Question"
-url = "faq"
+name = "Disclaimer"
+url = "disclaimer"
 weight = 4
 [[menu.sitemap]]
 name = "Privacy & Policy"
