@@ -34,7 +34,7 @@ url = "#pricing"
 weight = 6
 [[menu.main]]
 name = "Blog"
-url = "#blog"
+url = "i"
 weight = 7
 
 # Sitemap Menu
