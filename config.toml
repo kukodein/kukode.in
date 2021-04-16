@@ -32,10 +32,10 @@ weight = 5
 name = "Pricing"
 url = "#pricing"
 weight = 6
-[[menu.main]]
-name = "Blog"
-url = "i"
-weight = 7
+# [[menu.main]]
+# name = "Blog"
+# url = "i"
+# weight = 7
 
 # Sitemap Menu
 [[menu.sitemap]]
@@ -87,7 +87,7 @@ pinImage = "images/pin.png"
 # Social icons
 [[params.social]]
 icon = "fa-facebook-official"
-url = "https://fb.me/kukodein"
+url = "https://www.facebook.com/kukodein"
 weight = 1
 [[params.social]]
 icon = "fa-instagram"
@@ -99,7 +99,7 @@ url = "https://t.me/kukodein"
 weight = 3
 [[params.social]]
 icon = "fa-whatsapp"
-url = "https://api.whatsapp.com/send?phone=6287726265660"
+url = "https://api.whatsapp.com/send?phone=6285329335354"
 weight = 4
 [[params.social]]
 icon = "fa-github"
