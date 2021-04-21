@@ -5,7 +5,7 @@ theme = "portio"
 title = "Kukode.in - Jasa Pembuatan Website & Maintenance SEO Jogja"
 
 publishDir = "docs"
-disqusShortname = "ahmadmzakki"
+disqusShortname = "kukodein"
 
 # Main Menu
 [[menu.main]]
