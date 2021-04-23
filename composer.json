@@ -1,0 +1,28 @@
+{
+  "name": "kukodein/kukode.in",
+  "description": "Jasa Pembuatan Website dan SEO Web Jogja",
+  "keywords": [
+    "jasa",
+    "pembuatan",
+    "seo",
+    "web",
+    "develop",
+    "buat",
+    "optimasi",
+    "jogja"
+  ],
+  "homepage": "https://kukode.in/",
+  "authors": [
+    {
+      "name": "Ahmad Muzakki",
+      "email": "kukodein@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": ""
+  },
+  "license": "MIT",
+  "replace": {
+    "": ""
+  }
+}
